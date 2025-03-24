@@ -1,6 +1,6 @@
-﻿**SegNet: Semantic Segmentation with VGG and EfficientNet-B0**
+# ﻿**SegNet: Semantic Segmentation with VGG and EfficientNet-B0**
 
-**🚀 Project Overview**
+# **🚀 Project Overview**
 
 This project implements the **SegNet** architecture for semantic segmentation, following the guidelines from the original paper ([SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](https://arxiv.org/pdf/1511.00561.pdf)). We experiment with two backbone models:
 
@@ -9,17 +9,18 @@ This project implements the **SegNet** architecture for semantic segmentation, f
 
 We also analyze the trade-offs in accuracy and efficiency between these models.
 
-**📂 Dataset: Pascal VOC**
+# **📂 Dataset:**
+Pascal VOC
 
 We use the [Pascal VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/) for training and evaluation, a benchmark dataset for object recognition and segmentation.
 
-**✅ Data Preprocessing & Loading**
+# **✅ Data Preprocessing & Loading**
 
 - **Download & Preprocess** the Pascal VOC dataset
 - **Set up Data Loaders** for training and validation
 - **Apply Augmentations** to improve model generalization
 
-**🏗️ Model Architecture**
+# **🏗️ Model Architecture**
 
 **🔹 Original SegNet (VGG-16 Backbone)**
 
@@ -32,7 +33,7 @@ We use the [Pascal VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/) for tra
 - Replaces VGG-16 with EfficientNet-B0 for improved efficiency
 - Reduces computational complexity while maintaining performance
 
-**🏋️ Training & Evaluation**
+# **🏋️ Training & Evaluation**
 
 - **Monitor Training Progress** using metrics such as:
   - Loss
@@ -43,7 +44,7 @@ We use the [Pascal VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/) for tra
   - Dice Score (F1 Score for segmentation)
   - Jaccard Index (IoU)
 
-**🔧 Hyperparameter Tuning**
+# **🔧 Hyperparameter Tuning**
 
 We fine-tune hyperparameters like:
 
@@ -52,8 +53,13 @@ We fine-tune hyperparameters like:
 - Optimizer (Adam, SGD)
 - Number of Epochs
 
-**📜 References**
+# **📜 References**
 
 - [SegNet Paper](https://arxiv.org/pdf/1511.00561.pdf)
 - [Pascal VOC Dataset](http://host.robots.ox.ac.uk/pascal/VOC/)
+
+  
+![2](https://github.com/user-attachments/assets/0ae6c60d-e89c-4487-9172-563ac7f51b36)
+
+![1](https://github.com/user-attachments/assets/3bd391ba-6aef-45cf-9a71-53ac16593a1d)
 
